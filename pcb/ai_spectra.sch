@@ -7448,6 +7448,12 @@ This library includes schematic frames, logos, and other non-electrical/-mechani
 <vertex x="1.9710375" y="-0.005078125"/>
 </polygon>
 </package>
+<package name="CREATIVE-COMMONS">
+<text x="0" y="-3.81" size="1.905" layer="51" font="vector" ratio="10" align="center">Released under the Creative Commons 
+Attribution Share-Alike 4.0 License</text>
+<text x="0" y="-8.89" size="1.27" layer="51" font="vector" ratio="10" align="center"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="0" y="-12.7" size="1.524" layer="51" font="vector" ratio="10" align="center">Designed by:</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER-L">
@@ -7464,18 +7470,18 @@ This library includes schematic frames, logos, and other non-electrical/-mechani
 <wire x1="78.74" y1="15.24" x2="78.74" y2="7.62" width="0.1016" layer="94"/>
 <wire x1="78.74" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="78.74" y1="7.62" x2="101.6" y2="7.62" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<text x="2.54" y="2.54" size="2.54" layer="94">DATE:</text>
-<text x="15.24" y="2.54" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="68.58" y="2.54" size="2.54" layer="94">SHEET:</text>
-<text x="83.82" y="2.54" size="2.54" layer="94">&gt;SHEET</text>
-<text x="81.28" y="10.16" size="2.54" layer="94">REV:</text>
-<text x="2.54" y="17.78" size="2.54" layer="94">TITLE:</text>
-<text x="15.24" y="17.78" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="2.54" y="10.16" size="2.54" layer="94">AUTHOR:</text>
-<text x="20.32" y="10.16" size="2.54" layer="94">&gt;AUTHOR</text>
-<text x="91.44" y="10.16" size="2.54" layer="94">&gt;REV</text>
+<wire x1="0" y1="15.24" x2="0" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="0" y1="24.13" x2="101.6" y2="24.13" width="0.1016" layer="94"/>
+<text x="2.54" y="2.54" size="2.54" layer="94" font="vector" ratio="10">DATE:</text>
+<text x="15.24" y="2.54" size="2.54" layer="94" font="vector" ratio="10">&gt;LAST_DATE_TIME</text>
+<text x="68.58" y="2.54" size="2.54" layer="94" font="vector" ratio="10">SHEET:</text>
+<text x="83.82" y="2.54" size="2.54" layer="94" font="vector" ratio="10">&gt;SHEET</text>
+<text x="81.28" y="10.16" size="2.54" layer="94" font="vector" ratio="10">REV:</text>
+<text x="2.54" y="10.16" size="2.54" layer="94" font="vector" ratio="10">TITLE:</text>
+<text x="15.24" y="10.16" size="2.54" layer="94" font="vector" ratio="10">&gt;DRAWING_NAME</text>
+<text x="91.44" y="10.16" size="2.54" layer="94" font="vector" ratio="10">&gt;REV</text>
+<text x="2.54" y="20.32" size="2.54" layer="94" font="vector" ratio="10">Designed by ACROBOTIC in Pasadena, CA</text>
+<text x="2.54" y="16.51" size="1.651" layer="94" font="vector" ratio="10">Released under Creative Commons Attribution Share-Alike 4.0 License</text>
 </symbol>
 <symbol name="AI-LOGO">
 <rectangle x1="-0.00761875" y1="-0.00761875" x2="9.51738125" y2="0.00761875" layer="94"/>
@@ -9534,10 +9540,9 @@ A4 (8.5x11) US Letter frame based on the built-in A4-LOC frame.
 <gate name="G$2" symbol="LETTER-DOCFIELD" x="154.94" y="3.81" addlevel="must"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="CREATIVE-COMMONS">
 <technologies>
 <technology name="">
-<attribute name="AUTHOR" value="" constant="no"/>
 <attribute name="REV" value="" constant="no"/>
 </technology>
 </technologies>
@@ -10004,6 +10009,56 @@ chip</description>
 <pad name="3" x="2.54" y="0" drill="1" diameter="1.8796" rot="R180"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="CAP-POL-E3,5-8">
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="C" x="1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<pad name="A" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="3.302" y="2.794" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
+<package name="CAP-POL-8X10">
+<wire x1="-4.15" y1="4.15" x2="3.55" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="3.55" y1="4.15" x2="4.15" y2="3.55" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="3.55" x2="4.15" y2="-3.55" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="-3.55" x2="3.55" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="3.55" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="0.95" x2="-4.15" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="3.55" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="3.55" y1="4.15" x2="4.15" y2="3.55" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="3.55" x2="4.15" y2="1.95" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-0.95" x2="4.15" y2="-3.55" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-3.55" x2="3.55" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="3.55" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="3.81" y1="1.22" x2="-3.81" y2="1.22" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-3.81" y1="-1.22" x2="3.81" y2="-1.22" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-3.1" y1="2.5" x2="-3.1" y2="-2.5" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="4" width="0.1016" layer="51"/>
+<smd name="A" x="3.35" y="0" dx="4" dy="1.5" layer="1"/>
+<smd name="C" x="-3.35" y="-0.05" dx="4" dy="1.5" layer="1"/>
+<rectangle x1="-4.65" y1="-0.55" x2="-3.95" y2="0.55" layer="51"/>
+<rectangle x1="3.95" y1="-0.55" x2="4.65" y2="0.55" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.15" y="2.45"/>
+<vertex x="-3.6" y="1.7"/>
+<vertex x="-3.9" y="0.85"/>
+<vertex x="-4.05" y="-0.05"/>
+<vertex x="-3.9" y="-1"/>
+<vertex x="-3.6" y="-1.75"/>
+<vertex x="-3.1" y="-2.5"/>
+</polygon>
+<text x="-4.54" y="4.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -10172,10 +10227,6 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="CAP-POL" prefix="C" uservalue="yes">
-<description>&lt;h3&gt;Polarized Capacitor&lt;/h3&gt;
-&lt;p&gt;
- Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties.
-&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
 </gates>
@@ -10199,6 +10250,24 @@ chip</description>
 </technologies>
 </device>
 <device name="PANASONIC-C" package="CAP-PANASONIC-C">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E3,5-8" package="CAP-POL-E3,5-8">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8X10" package="CAP-POL-8X10">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -10800,6 +10869,18 @@ Keying posts into board</description>
 <text x="-2.54" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="21"/>
 </package>
+<package name="1X02-ST-5MM">
+<wire x1="-5.6" y1="4.2" x2="5.6" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="4.2" x2="5.6" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-2.3" x2="5.6" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-3.3" x2="-5.6" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-5.6" y1="-3.3" x2="-5.6" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-5.6" y1="-2.3" x2="-5.6" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-2.3" x2="-5.6" y2="-2.3" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1.3" diameter="2.032" first="yes"/>
+<pad name="2" x="2.5" y="0" drill="1.3" diameter="2.032"/>
+<text x="-5.548" y="4.445" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="2X03">
@@ -10990,6 +11071,15 @@ Keying posts into board</description>
 </technologies>
 </device>
 <device name="SKINNY" package="1X02-SKINNY">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST-5MM" package="1X02-ST-5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11461,18 +11551,32 @@ Standard dual package.
 <wire x1="-3.5" y1="-3" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="3" x2="-3.5" y2="2" width="0.2032" layer="21"/>
 </package>
+<package name="DO214AC">
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.15" y="0" dx="2.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="2.65" dy="1.75" layer="1"/>
+<text x="-2.54" y="1.778" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="1.27" y="0" size="1.524" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.651" y="0.254" size="1.524" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<pin name="A" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-4.445" y="-3.175" size="1.524" layer="95" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11500,6 +11604,15 @@ Standard dual package.
 </technologies>
 </device>
 <device name="SMC" package="SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO214AC" package="DO214AC">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -11701,7 +11814,9 @@ This library includes crystals, resonators, etc.
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device=""/>
+<part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
+<attribute name="REV" value="1.0"/>
+</part>
 <part name="LED1" library="Ai_LED" deviceset="LED-PL9823" device="-F8" value="LED-PL9823-F8"/>
 <part name="LED2" library="Ai_LED" deviceset="LED-PL9823" device="-F8" value="LED-PL9823-F8"/>
 <part name="LED3" library="Ai_LED" deviceset="LED-PL9823" device="-F8" value="LED-PL9823-F8"/>
@@ -11755,7 +11870,6 @@ This library includes crystals, resonators, etc.
 <part name="STANDOFF3" library="Ai_Electromechanical" deviceset="STAND-OFF" device="4"/>
 <part name="STANDOFF4" library="Ai_Electromechanical" deviceset="STAND-OFF" device="4"/>
 <part name="FRAME2" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
-<attribute name="AUTHOR" value="A.I. HARDWARE SITHS"/>
 <attribute name="REV" value="1.0"/>
 </part>
 <part name="FTDI" library="Ai_Connectors" deviceset="1X06" device=""/>
@@ -13253,7 +13367,6 @@ This library includes crystals, resonators, etc.
 <pinref part="S8" gate="G$1" pin="L2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="161.29" x2="64.77" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="161.29" x2="66.04" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="64.77" y1="161.29" x2="64.77" y2="168.91" width="0.1524" layer="91"/>
 <junction x="64.77" y="161.29"/>
 <pinref part="U$7" gate="G$1" pin="VIN"/>
@@ -13476,7 +13589,6 @@ This library includes crystals, resonators, etc.
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="71.12" y1="161.29" x2="72.39" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="161.29" x2="73.66" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="161.29" x2="72.39" y2="168.91" width="0.1524" layer="91"/>
 <junction x="72.39" y="161.29"/>
@@ -13494,4 +13606,10 @@ This library includes crystals, resonators, etc.
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
