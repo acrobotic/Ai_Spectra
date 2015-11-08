@@ -11815,7 +11815,7 @@ This library includes crystals, resonators, etc.
 </classes>
 <parts>
 <part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
-<attribute name="REV" value="1.0"/>
+<attribute name="REV" value="1.1"/>
 </part>
 <part name="LED1" library="Ai_LED" deviceset="LED-PL9823" device="-F8" value="LED-PL9823-F8"/>
 <part name="LED2" library="Ai_LED" deviceset="LED-PL9823" device="-F8" value="LED-PL9823-F8"/>
@@ -11870,7 +11870,7 @@ This library includes crystals, resonators, etc.
 <part name="STANDOFF3" library="Ai_Electromechanical" deviceset="STAND-OFF" device="4"/>
 <part name="STANDOFF4" library="Ai_Electromechanical" deviceset="STAND-OFF" device="4"/>
 <part name="FRAME2" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
-<attribute name="REV" value="1.0"/>
+<attribute name="REV" value="1.1"/>
 </part>
 <part name="FTDI" library="Ai_Connectors" deviceset="1X06" device=""/>
 <part name="U1" library="Ai_Power" deviceset="MC7805" device="-HOR"/>
